@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Pricing Component with Toggle Master</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="header-title">
+      Our Pricing
+    </h1>
+    <img class="header-img-top" src="images/bg-top.svg" alt="">
+    <img class="header-img-bottom" src="images/bg-bottom.svg" alt="">
+
+    <div class="toggle-container">
+      <p class="button">
+        Annually
+      </p>
+      <label class="switch">
+        <input type="checkbox" class="checkbox">
+        <span class="slider round"></span>
+      </label>
+      <p class="button">
+        Monthly
+      </p>
+    </div>
+
+    <div class="card-container">
+
+      <div class="card card-left">
+        <h3 class="card-title">
+          Basic
+        </h3>
+        <h2 class="card-price">
+          &dollar;<span class="basic">199.99<span>
+        </h2>
+        <ul class="card-list">
+          <li class="card-list-item">2 Users Allowed</li>
+          <li class="card-list-item">500 GB Storage</li class="card-list-item">
+          <li class="card-list-item2  ">Send up to 3 GB</li>
+
+        </ul>
+        <a class="card-button" href="#">Learn More</a>
+      </div>
+
+      <div class="card-middle">
+
+        <h3 class="card-title-middle">
+          Professional
+        </h3>
+        <h2 class="card-price-middle">
+          &dollar;<span class="professional">249.99</span>
+        </h2>
+        <ul class="card-list-middle">
+          <li class="card-list-item-middle"> 1 TB Storage</li>
+          <li class="card-list-item-middle">5 Users Allowed</li>
+          <li class="card-list-item2-middle">Send up to 10 GB</li>
+        </ul>
+        <a href="#" class="card-button-middle">Learn More</a>
+      </div>
+
+      <div class="card card-right">
+        <h3 class="card-title">
+          Master
+        </h3>
+        <h2 class="card-price">
+          &dollar;<span class="master">399.99</span>
+        </h2>
+        <ul class="card-list">
+          <li class="card-list-item">10 Users Allowed</li>
+          <li class="card-list-item">2 TB Storage</li>
+          <li class="card-list-item2">Send up to 20 GB</li>
+        </ul>
+        <a class="card-button" href="#">Learn More</a>
+      </div>
+
+    </div>
+  </header>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Lucas D Gomez</a>.
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
